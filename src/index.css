@@ -343,12 +343,10 @@ body {
 }
 
 .skills-article > h2 {
-    position: relative;
     font-size: 2.4em;
     text-align: center;
     color: var(--MAIN-BLUE-COLOR);
     text-shadow: 1px 2px 1px var(--MAIN-BLUE-TEXT-SHADOW);
-    z-index: 1;
 }
 
 .skills-logos-parent {
@@ -419,6 +417,38 @@ body {
     border-radius: 0.15em;
 }
 
+.skills-tech-stack {
+    opacity: 0;
+    transform: translate(0, -25px);
+    transition: all 300ms;
+    transition-delay: calc(100ms * 2);
+}
+
+.skills-tech-stack > h4 {
+    font-size: 1.6em;
+    color: var(--MAIN-BLUE-COLOR);
+    text-shadow: 1px 1px 1px var(--MAIN-BLUE-TEXT-SHADOW);
+    margin-top: 50px;
+}
+
+.skills-tech-stack > h4::after {
+    content: ":";
+}
+
+.skills-tech-stack > ul {
+    color: var(--MAIN-BLUE-COLOR);
+    margin-top: 15px;
+}
+
+.skills-tech-stack > ul > li {
+    margin-top: 0.4em;
+    margin-left: 2.5em;
+}
+
+.skills-tech-stack > ul > li > span {
+    color: var(--MAIN-BLACK-COLOR);
+}
+
 .skills-article > p {
     color: var(--MAIN-BLACK-COLOR);
     margin-top: 50px;
@@ -431,6 +461,11 @@ body {
 .skills-article[data-intersect] .skills-logos-div > figure {
     opacity: 1;
     transform: scale(1) translate(0, 0);
+}
+
+.skills-article[data-intersect] > .skills-tech-stack {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 .skills-article[data-intersect] > p {
@@ -890,6 +925,24 @@ footer > p {
         padding: 1.5em 1.8em;
     }
 
+    .skills-tech-stack > h4 {
+        text-align: center;
+    }
+
+    .skills-tech-stack > h4::after {
+        content: "";
+    }
+
+    .skills-tech-stack > ul {
+        list-style-type: none;
+        margin-top: 25px;
+    }
+
+    .skills-tech-stack > ul > li {
+        text-align: center;
+        margin-left: 0;
+    }
+
     .skills-article > p {
         text-align: center;
     }
@@ -993,11 +1046,19 @@ footer > p {
     .hero-section-img-div > img {
         width: 225px;
     }
+
+    .hero-section-img-div-first-div {
+        transform: translate(-15px, -15px);
+    }
 }
 
 @media screen and (max-width: 320px) {
     /* HERO */
     .hero-section-img-div > img {
         width: 175px;
+    }
+
+    .hero-section-img-div-first-div {
+        transform: translate(-10px, -10px);
     }
 }

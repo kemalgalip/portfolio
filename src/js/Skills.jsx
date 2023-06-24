@@ -1,6 +1,6 @@
 import React from "react";
-import htmlLogo from "../img/svg/html-logo.svg";
 import cssLogo from "../img/svg/css-logo.svg";
+import sassLogo from "../img/svg/sass-logo.svg";
 import javascriptLogo from "../img/svg/javascript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
@@ -43,7 +43,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 1 ? "hover" : "not-hover"} src={htmlLogo} title="HTML" alt="HTML" width="60" height="60" style={{ "--order": 1 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 1 ? "hover" : "not-hover"} src={cssLogo} title="CSS" alt="CSS" width="60" height="60" style={{ "--order": 1 }} />
                         </figure>
                         <figure
                             style={{ "--order": 2 }}
@@ -54,7 +54,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 2 ? "hover" : "not-hover"} src={cssLogo} title="CSS" alt="CSS" width="60" height="60" style={{ "--order": 2 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 2 ? "hover" : "not-hover"} src={sassLogo} title="SASS/SCSS" alt="SASS/SCSS" width="60" height="60" style={{ "--order": 2 }} />
                         </figure>
                         <figure
                             style={{ "--order": 3 }}
@@ -101,6 +101,32 @@ export default function Skills() {
                             <img className={currentLogo === null ? "" : currentLogo === 6 ? "hover" : "not-hover"} src={gitLogo} title="Git" alt="Git" width="60" height="60" style={{ "--order": 6 }} />
                         </figure>
                     </div>
+                </div>
+                <div className="skills-tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>
+                            <span>HTML5</span>
+                        </li>
+                        <li>
+                            <span>CSS3</span>
+                        </li>
+                        <li>
+                            <span>SASS/SCSS</span>
+                        </li>
+                        <li>
+                            <span>JavaScript</span>
+                        </li>
+                        <li>
+                            <span>ReactJS</span>
+                        </li>
+                        <li>
+                            <span>TailwindCSS</span>
+                        </li>
+                        <li>
+                            <span>Git and Github</span>
+                        </li>
+                    </ul>
                 </div>
                 <p>In addition to my skills, I possess a strong aptitude for learning new tools. I am a quick learner, capable of adapting to project requirements and acquiring proficiency in additional technologies as needed.</p>
             </article>
