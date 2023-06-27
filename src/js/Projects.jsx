@@ -4,10 +4,10 @@ import twitterCloneSS from "../img/ss/twitterclone-screenshot.png";
 import skyCastSS from "../img/ss/skycast-screenshot.png";
 import hairCoutureSS from "../img/ss/hair-couture-screenshot.png";
 import cssLogo from "../img/svg/css-logo.svg";
+import sassLogo from "../img/svg/sass-logo.svg";
 import javascriptLogo from "../img/svg/javascript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
-import viteLogo from "../img/svg/vite-logo.svg";
 
 export default function Projects() {
     const projectsRef = React.useRef(null);
@@ -187,7 +187,7 @@ export default function Projects() {
                             <p>General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also a multi-page application built with React Router DOM.</p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img src={cssLogo} title="CSS" alt="CSS" width="45" height="45" />
+                                    <img src={sassLogo} title="SCSS" alt="SCSS" width="45" height="45" />
                                     <img src={javascriptLogo} title="JavaScript" alt="JavaScript" width="45" height="45" />
                                     <img src={reactLogo} title="React" alt="React" width="45" height="45" />
                                 </div>
