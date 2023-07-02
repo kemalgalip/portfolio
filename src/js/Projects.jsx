@@ -184,7 +184,7 @@ export default function Projects() {
                         </a>
                         <div>
                             <h3>Hair Couture - Hair Salon Website</h3>
-                            <p>General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also a multi-page application built with React Router DOM.</p>
+                            <p>General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also built with React Router DOM, providing multi-page-like experience.</p>
                             <div>
                                 <div className="project-card-img-div">
                                     <img src={sassLogo} title="SCSS" alt="SCSS" width="45" height="45" />
