@@ -2,6 +2,7 @@ import React from "react";
 import cssLogo from "../img/svg/css-logo.svg";
 import sassLogo from "../img/svg/sass-logo.svg";
 import javascriptLogo from "../img/svg/javascript-logo.svg";
+import typescriptLogo from "../img/svg/typescript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
 import gitLogo from "../img/svg/git-logo.svg";
@@ -43,7 +44,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 1 ? "hover" : "not-hover"} src={cssLogo} title="CSS" alt="CSS" width="60" height="60" style={{ "--order": 1 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 1 ? "hover" : "not-hover"} src={sassLogo} title="SASS/SCSS" alt="SASS/SCSS" width="60" height="60" style={{ "--order": 1 }} />
                         </figure>
                         <figure
                             style={{ "--order": 2 }}
@@ -54,7 +55,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 2 ? "hover" : "not-hover"} src={sassLogo} title="SASS/SCSS" alt="SASS/SCSS" width="60" height="60" style={{ "--order": 2 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 2 ? "hover" : "not-hover"} src={javascriptLogo} title="JavaScript" alt="JavaScript" width="60" height="60" style={{ "--order": 2 }} />
                         </figure>
                         <figure
                             style={{ "--order": 3 }}
@@ -65,7 +66,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 3 ? "hover" : "not-hover"} src={javascriptLogo} title="JavaScript" alt="JavaScript" width="60" height="60" style={{ "--order": 3 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 3 ? "hover" : "not-hover"} src={typescriptLogo} title="TypeScript" alt="TypeScript" width="60" height="60" style={{ "--order": 3 }} />
                         </figure>
                         <figure
                             style={{ "--order": 4 }}
@@ -76,7 +77,7 @@ export default function Skills() {
                                 setCurrentLogo(null);
                             }}
                         >
-                            <img className={currentLogo === null ? "" : currentLogo === 4 ? "hover" : "not-hover"} src={reactLogo} title="React" alt="React" width="60" height="60" style={{ "--order": 4 }} />
+                            <img className={currentLogo === null ? "" : currentLogo === 4 ? "hover" : "not-hover"} src={reactLogo} title="ReactJS" alt="ReactJS" width="60" height="60" style={{ "--order": 4 }} />
                         </figure>
                         <figure
                             style={{ "--order": 5 }}
@@ -116,6 +117,9 @@ export default function Skills() {
                         </li>
                         <li>
                             <span>JavaScript</span>
+                        </li>
+                        <li>
+                            <span>TypeScript</span>
                         </li>
                         <li>
                             <span>ReactJS</span>
