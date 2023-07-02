@@ -792,10 +792,12 @@ footer > p {
 
     .skills-logos-div > figure > img.hover {
         width: 4em;
+        border-radius: 0.2em;
     }
 
     .skills-logos-div > figure > img.not-hover {
         width: 4em;
+        border-radius: 0.2em;
     }
 }
 
