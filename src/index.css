@@ -359,6 +359,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-start;
+    pointer-events: none;
 }
 
 .skills-logos-div > figure {
@@ -368,8 +370,8 @@ body {
     flex-grow: 1;
     display: grid;
     place-items: start center;
-    transition: all 150ms;
-    transition-delay: calc(var(--order) * 100ms);
+    transition: transform 150ms ease calc(var(--order) * 100ms), opacity 150ms ease calc(var(--order) * 100ms);
+    pointer-events: auto;
 }
 
 .skills-logos-div > figure:nth-child(1) {
@@ -407,14 +409,14 @@ body {
     animation-delay: calc(var(--order) * 250ms);
 }
 
-.skills-logos-div > figure > img.hover {
-    width: 5.2em;
-    border-radius: 0.26em;
-}
-
-.skills-logos-div > figure > img.not-hover {
+.skills-logos-div:hover > figure:not(:hover) > img {
     width: 3em;
     border-radius: 0.15em;
+}
+
+.skills-logos-div > figure:hover > img {
+    width: 5.2em;
+    border-radius: 0.26em;
 }
 
 .skills-tech-stack {
@@ -790,12 +792,12 @@ footer > p {
         flex-shrink: 1;
     }
 
-    .skills-logos-div > figure > img.hover {
+    .skills-logos-div:hover > figure:not(:hover) > img {
         width: 4em;
         border-radius: 0.2em;
     }
 
-    .skills-logos-div > figure > img.not-hover {
+    .skills-logos-div > figure:hover > img {
         width: 4em;
         border-radius: 0.2em;
     }
