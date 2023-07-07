@@ -6,6 +6,7 @@ import hairCoutureSS from "../img/ss/hair-couture-screenshot.png";
 import cssLogo from "../img/svg/css-logo.svg";
 import sassLogo from "../img/svg/sass-logo.svg";
 import javascriptLogo from "../img/svg/javascript-logo.svg";
+import typescriptLogo from "../img/svg/typescript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
 
@@ -164,7 +165,7 @@ export default function Projects() {
                             <div>
                                 <div className="project-card-img-div">
                                     <img src={cssLogo} title="CSS" alt="CSS" width="45" height="45" />
-                                    <img src={javascriptLogo} title="JavaScript" alt="JavaScript" width="45" height="45" />
+                                    <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="45" height="45" />
                                     <img src={reactLogo} title="React" alt="React" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
