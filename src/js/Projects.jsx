@@ -172,7 +172,7 @@ export default function Projects() {
                                 </div>
                                 <div className="project-card-link-div">
                                     <a
-                                        href="https://github.com/kgalip/hair-couture"
+                                        href="https://github.com/kemalgalip/hair-couture"
                                         target="_blank"
                                     >
                                         Source
@@ -224,7 +224,7 @@ export default function Projects() {
                                 </div>
                                 <div className="project-card-link-div">
                                     <a
-                                        href="https://github.com/kgalip/hair-couture"
+                                        href="https://github.com/kemalgalip/hair-couture"
                                         target="_blank"
                                     >
                                         Source
@@ -275,7 +275,10 @@ export default function Projects() {
                                     />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a href="https://github.com/kgalip/sky-cast" target="_blank">
+                                    <a
+                                        href="https://github.com/kemalgalip/sky-cast"
+                                        target="_blank"
+                                    >
                                         Source
                                     </a>
                                     <a href="https://kemalgalip-skycast.vercel.app" target="_blank">
@@ -322,7 +325,7 @@ export default function Projects() {
                                 </div>
                                 <div className="project-card-link-div">
                                     <a
-                                        href="https://github.com/kgalip/twitter-clone"
+                                        href="https://github.com/kemalgalip/twitter-clone"
                                         target="_blank"
                                     >
                                         Source
@@ -373,7 +376,7 @@ export default function Projects() {
                                     />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a href="https://github.com/kgalip/chat-on" target="_blank">
+                                    <a href="https://github.com/kemalgalip/chat-on" target="_blank">
                                         Source
                                     </a>
                                     <a href="https://kemalgalip-chaton.vercel.app" target="_blank">
