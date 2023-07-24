@@ -142,8 +142,8 @@ export default function Projects() {
                             <h3>NarutoPedia - Naurto Universe</h3>
                             <p>
                                 Informative server side application about the popular anime/manga
-                                series Naruto. Dynamic routing and pagination used. Built with
-                                Next.js version 13.
+                                series Naruto, built with Next.js version 13. Dynamic routing and
+                                pagination used.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
