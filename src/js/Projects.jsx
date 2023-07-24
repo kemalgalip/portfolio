@@ -13,6 +13,7 @@ import typescriptLogo from "../img/svg/typescript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import nextLogo from "../img/svg/next-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
+import npmLogo from "../img/svg/npm-logo.svg";
 
 export default function Projects() {
     const projectsRef = React.useRef(null);
@@ -360,6 +361,13 @@ export default function Projects() {
                                         src={reactLogo}
                                         title="ReactJS"
                                         alt="ReactJS"
+                                        width="45"
+                                        height="45"
+                                    />
+                                    <img
+                                        src={npmLogo}
+                                        title="npm"
+                                        alt="npm"
                                         width="45"
                                         height="45"
                                     />
