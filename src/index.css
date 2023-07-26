@@ -622,6 +622,15 @@ body {
     margin: 20px 0;
 }
 
+.project-card > div > p > a {
+    text-decoration: none;
+    color: var(--MAIN-BLUE-TEXT-SHADOW);
+}
+
+.project-card > div > p > a:hover {
+    text-decoration: underline;
+}
+
 .project-card > div > div {
     margin-top: auto;
     margin-bottom: 0.5rem;

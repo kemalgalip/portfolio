@@ -140,11 +140,14 @@ export default function Projects() {
                             <img src={narutopediaSS} width="960" height="1474" />
                         </a>
                         <div>
-                            <h3>NarutoPedia - Naurto Universe</h3>
+                            <h3>NarutoPedia - Naruto Universe</h3>
                             <p>
                                 Informative server side application about the popular anime/manga
-                                series Naruto, built with Next.js version 13. Dynamic routing and
-                                pagination used.
+                                series Naruto, built with an external{" "}
+                                <a href="https://www.narutodb.xyz" target="_blank">
+                                    API.
+                                </a>{" "}
+                                Dynamic routing and pagination used (Next.js version 13+).
                             </p>
                             <div>
                                 <div className="project-card-img-div">
