@@ -247,11 +247,18 @@ export default function Projects() {
                             <img src={skyCastSS} width="960" height="932" />
                         </a>
                         <div>
-                            <h3>SkyCast - Weather Forecast</h3>
+                            <h3>SkyCast - Weather App</h3>
                             <p>
-                                Contains some advanced JavaScript syntax (fetching different datas
-                                from the same API at the same time, getting and setting data from/to
-                                local storage, dark-light mode etc.).
+                                Weather app built with an{" "}
+                                <a
+                                    href="https://rapidapi.com/weatherapi/api/weatherapi-com"
+                                    target="_blank"
+                                >
+                                    API.
+                                </a>{" "}
+                                Contains some advanced methods such as fetching multiple datas from
+                                API at the same time, getting and setting data from/to local
+                                storage.
                             </p>
                             <div>
                                 <div className="project-card-img-div">

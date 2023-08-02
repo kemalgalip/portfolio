@@ -9,8 +9,6 @@ import jestLogo from "../img/svg/jest-logo.svg";
 export default function Skills() {
     const skillsRef = React.useRef(null);
 
-    const [currentLogo, setCurrentLogo] = React.useState(null);
-
     React.useEffect(() => {
         if (skillsRef.current) {
             const observer = new IntersectionObserver(
@@ -125,6 +123,9 @@ export default function Skills() {
                         </li>
                         <li>
                             <span>Jest</span>
+                        </li>
+                        <li>
+                            <span>Python</span>
                         </li>
                         <li>
                             <span>npm</span>

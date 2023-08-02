@@ -43,7 +43,7 @@ body {
 .hero-section {
     font-family: "Titillium Web", sans-serif;
     font-size: 54px;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: #ffffff;
     background-image: url("./img/hero-background.svg");
     background-attachment: fixed;
