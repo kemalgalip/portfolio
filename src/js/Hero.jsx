@@ -24,8 +24,8 @@ export default function Hero() {
                         Developer
                     </h3>
                     <p>
-                        Front-end React Developer dedicated to delivering seamless user experiences.
-                        Join me in creating remarkable digital solutions!
+                        dedicated to delivering seamless user experiences. Join me in creating
+                        remarkable digital solutions!
                     </p>
                 </div>
                 <div className="hero-section-img-div">

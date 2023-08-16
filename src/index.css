@@ -95,9 +95,10 @@ body {
 }
 
 .hero-react-h3 > a > p {
-    display: inline-block;
+    letter-spacing: -0.02em;
     text-shadow: 1px 1px var(--MAIN-BLUE-TEXT-SHADOW), 2px 2px var(--MAIN-BLUE-TEXT-SHADOW);
     color: var(--MAIN-BLUE-COLOR);
+    display: inline-block;
     transition: opacity 100ms, transform 120ms ease-in;
 }
 

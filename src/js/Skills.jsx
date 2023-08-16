@@ -1,10 +1,10 @@
 import React from "react";
-import sassLogo from "../img/svg/sass-logo.svg";
 import typescriptLogo from "../img/svg/typescript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import nextLogo from "../img/svg/next-logo.svg";
 import tailwindLogo from "../img/svg/tailwind-logo.svg";
-import jestLogo from "../img/svg/jest-logo.svg";
+import nodeLogo from "../img/svg/node-logo.svg";
+import expressLogo from "../img/svg/express-logo.svg";
 
 export default function Skills() {
     const skillsRef = React.useRef(null);
@@ -34,9 +34,9 @@ export default function Skills() {
                     <div className="skills-logos-div">
                         <figure style={{ "--order": 1 }}>
                             <img
-                                src={sassLogo}
-                                title="SASS/SCSS"
-                                alt="SASS/SCSS"
+                                src={typescriptLogo}
+                                title="TypeScript"
+                                alt="TypeScript"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 1 }}
@@ -44,9 +44,9 @@ export default function Skills() {
                         </figure>
                         <figure style={{ "--order": 2 }}>
                             <img
-                                src={typescriptLogo}
-                                title="TypeScript"
-                                alt="TypeScript"
+                                src={reactLogo}
+                                title="React.js"
+                                alt="React.js"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 2 }}
@@ -54,9 +54,9 @@ export default function Skills() {
                         </figure>
                         <figure style={{ "--order": 3 }}>
                             <img
-                                src={reactLogo}
-                                title="ReactJS"
-                                alt="ReactJS"
+                                src={nextLogo}
+                                title="Next.js"
+                                alt="Next.js"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 3 }}
@@ -64,9 +64,9 @@ export default function Skills() {
                         </figure>
                         <figure style={{ "--order": 4 }}>
                             <img
-                                src={nextLogo}
-                                title="Next.js"
-                                alt="Next.js"
+                                src={tailwindLogo}
+                                title="TailwindCSS"
+                                alt="TailwindCSS"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 4 }}
@@ -74,9 +74,9 @@ export default function Skills() {
                         </figure>
                         <figure style={{ "--order": 5 }}>
                             <img
-                                src={tailwindLogo}
-                                title="TailwindCSS"
-                                alt="TailwindCSS"
+                                src={nodeLogo}
+                                title="Node.js"
+                                alt="Node.js"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 5 }}
@@ -84,9 +84,9 @@ export default function Skills() {
                         </figure>
                         <figure style={{ "--order": 6 }}>
                             <img
-                                src={jestLogo}
-                                title="Jest"
-                                alt="Jest"
+                                src={expressLogo}
+                                title="Express.js"
+                                alt="Express.js"
                                 width="60"
                                 height="60"
                                 style={{ "--order": 6 }}
@@ -113,7 +113,7 @@ export default function Skills() {
                             <span>TypeScript</span>
                         </li>
                         <li>
-                            <span>ReactJS</span>
+                            <span>React.js</span>
                         </li>
                         <li>
                             <span>Next.js</span>
@@ -122,13 +122,19 @@ export default function Skills() {
                             <span>TailwindCSS</span>
                         </li>
                         <li>
-                            <span>Jest</span>
-                        </li>
-                        <li>
                             <span>Python</span>
                         </li>
                         <li>
+                            <span>Node.js</span>
+                        </li>
+                        <li>
+                            <span>Express.js</span>
+                        </li>
+                        <li>
                             <span>npm</span>
+                        </li>
+                        <li>
+                            <span>Jest</span>
                         </li>
                         <li>
                             <span>Git and Github</span>

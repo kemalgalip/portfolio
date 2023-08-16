@@ -31,8 +31,8 @@ export default function About() {
                         Who <span>I Am</span>
                     </h3>
                     <p>
-                        Hello! I am <span>Kemal Galip</span>, an aspiring front-end React developer.
-                        I can describe myself as a fast learner, adaptable to challenges, and a very
+                        Hello! I am <span>Kemal Galip</span>, an aspiring web developer. I can
+                        describe myself as a fast learner, adaptable to challenges, and a very
                         organized code writer. <span>Easy-to-read</span> code is my top priority. I
                         love learning from <span>professionals</span> in the field, and projects
                         that are <span>beyond me.</span> I always look for challenging problems,
