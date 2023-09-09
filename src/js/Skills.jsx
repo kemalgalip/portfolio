@@ -2,9 +2,9 @@ import React from "react";
 import typescriptLogo from "../img/svg/typescript-logo.svg";
 import reactLogo from "../img/svg/react-logo.svg";
 import nextLogo from "../img/svg/next-logo.svg";
-import tailwindLogo from "../img/svg/tailwind-logo.svg";
 import nodeLogo from "../img/svg/node-logo.svg";
 import expressLogo from "../img/svg/express-logo.svg";
+import mongodbLogo from "../img/svg/mongodb-logo.svg";
 
 export default function Skills() {
     const skillsRef = React.useRef(null);
@@ -42,18 +42,18 @@ export default function Skills() {
                             <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ "--order": 3 }} />
                         </figure>
                         <figure style={{ "--order": 4 }}>
-                            <img src={tailwindLogo} title="TailwindCSS" alt="TailwindCSS" width="60" height="60" style={{ "--order": 4 }} />
+                            <img src={nodeLogo} title="Node.js" alt="Node.js" width="60" height="60" style={{ "--order": 4 }} />
                         </figure>
                         <figure style={{ "--order": 5 }}>
-                            <img src={nodeLogo} title="Node.js" alt="Node.js" width="60" height="60" style={{ "--order": 5 }} />
+                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 5 }} />
                         </figure>
                         <figure style={{ "--order": 6 }}>
-                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 6 }} />
+                            <img src={mongodbLogo} title="MongoDB" alt="MongoDB" width="60" height="60" style={{ "--order": 6 }} />
                         </figure>
                     </div>
                 </div>
                 <div className="skills-tech-stack">
-                    <h4>Tech Stack</h4>
+                    <h4>My Stack</h4>
                     <ul>
                         <li>
                             <span>HTML5</span>
@@ -96,6 +96,12 @@ export default function Skills() {
                         </li>
                         <li>
                             <span>Jest</span>
+                        </li>
+                        <li>
+                            <span>MySQL</span>
+                        </li>
+                        <li>
+                            <span>MongoDB</span>
                         </li>
                         <li>
                             <span>Git and Github</span>

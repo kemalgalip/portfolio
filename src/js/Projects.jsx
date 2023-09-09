@@ -130,9 +130,8 @@ export default function Projects() {
             <article ref={projectsRef} className="projects-article">
                 <h2>What I Did</h2>
                 <p>
-                    Here are some of my latest projects. In these projects, different parts of the
-                    web development principles and technologies are used. Details are explained in
-                    descriptions.
+                    Here are some of my latest projects. In these projects, different parts of the web development principles and technologies are
+                    used. Details are explained in descriptions.
                 </p>
                 <div>
                     <div ref={projectOneRef} className="project-card">
@@ -142,8 +141,7 @@ export default function Projects() {
                         <div>
                             <h3>NarutoPedia - Naruto Universe</h3>
                             <p>
-                                Informative server side application about the popular anime/manga
-                                series Naruto, built with an external{" "}
+                                Informative server side application about the popular anime/manga series Naruto, built with an external{" "}
                                 <a href="https://www.narutodb.xyz" target="_blank">
                                     API.
                                 </a>{" "}
@@ -151,39 +149,15 @@ export default function Projects() {
                             </p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img
-                                        src={sassLogo}
-                                        title="SASS/SCSS"
-                                        alt="SASS/SCSS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={typescriptLogo}
-                                        title="TypeScript"
-                                        alt="TypeScript"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={nextLogo}
-                                        title="Next.js"
-                                        alt="Next.js"
-                                        width="45"
-                                        height="45"
-                                    />
+                                    <img src={sassLogo} title="SASS/SCSS" alt="SASS/SCSS" width="45" height="45" />
+                                    <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="45" height="45" />
+                                    <img src={nextLogo} title="Next.js" alt="Next.js" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a
-                                        href="https://github.com/kemalgalip/hair-couture"
-                                        target="_blank"
-                                    >
+                                    <a href="https://github.com/kemalgalip/hair-couture" target="_blank">
                                         Source
                                     </a>
-                                    <a
-                                        href="https://kemalgalip-narutopedia.vercel.app"
-                                        target="_blank"
-                                    >
+                                    <a href="https://kemalgalip-narutopedia.vercel.app" target="_blank">
                                         Live
                                     </a>
                                 </div>
@@ -197,45 +171,20 @@ export default function Projects() {
                         <div>
                             <h3>Hair Couture - Hair Salon Website</h3>
                             <p>
-                                General purpose hair salon website. Appointment and contact form
-                                submits are handled with RegEx. It is also built with React Router
-                                DOM, providing multi-page-like experience.
+                                General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also built with
+                                React Router DOM, providing multi-page-like experience.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img
-                                        src={sassLogo}
-                                        title="SASS/SCSS"
-                                        alt="SASS/SCSS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={javascriptLogo}
-                                        title="JavaScript"
-                                        alt="JavaScript"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={reactLogo}
-                                        title="ReactJS"
-                                        alt="ReactJS"
-                                        width="45"
-                                        height="45"
-                                    />
+                                    <img src={sassLogo} title="SASS/SCSS" alt="SASS/SCSS" width="45" height="45" />
+                                    <img src={javascriptLogo} title="JavaScript" alt="JavaScript" width="45" height="45" />
+                                    <img src={reactLogo} title="React.js" alt="React.js" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a
-                                        href="https://github.com/kemalgalip/hair-couture"
-                                        target="_blank"
-                                    >
+                                    <a href="https://github.com/kemalgalip/hair-couture" target="_blank">
                                         Source
                                     </a>
-                                    <a
-                                        href="https://kemalgalip-haircouture.vercel.app"
-                                        target="_blank"
-                                    >
+                                    <a href="https://kemalgalip-haircouture.vercel.app" target="_blank">
                                         Live
                                     </a>
                                 </div>
@@ -250,45 +199,20 @@ export default function Projects() {
                             <h3>SkyCast - Weather App</h3>
                             <p>
                                 Weather app built with an{" "}
-                                <a
-                                    href="https://rapidapi.com/weatherapi/api/weatherapi-com"
-                                    target="_blank"
-                                >
+                                <a href="https://rapidapi.com/weatherapi/api/weatherapi-com" target="_blank">
                                     API.
                                 </a>{" "}
-                                Contains some advanced methods such as fetching multiple datas from
-                                API at the same time, getting and setting data from/to local
-                                storage.
+                                Contains some advanced methods such as fetching multiple datas from API at the same time, getting and setting data
+                                from/to local storage.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img
-                                        src={cssLogo}
-                                        title="CSS"
-                                        alt="CSS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={typescriptLogo}
-                                        title="TypeScript"
-                                        alt="TypeScript"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={reactLogo}
-                                        title="ReactJS"
-                                        alt="ReactJS"
-                                        width="45"
-                                        height="45"
-                                    />
+                                    <img src={cssLogo} title="CSS" alt="CSS" width="45" height="45" />
+                                    <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="45" height="45" />
+                                    <img src={reactLogo} title="React.js" alt="React.js" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a
-                                        href="https://github.com/kemalgalip/sky-cast"
-                                        target="_blank"
-                                    >
+                                    <a href="https://github.com/kemalgalip/sky-cast" target="_blank">
                                         Source
                                     </a>
                                     <a href="https://kemalgalip-skycast.vercel.app" target="_blank">
@@ -305,45 +229,20 @@ export default function Projects() {
                         <div>
                             <h3>Twitter - Clone Website</h3>
                             <p>
-                                The website clone of Twitter, built using the TailwindCSS framework,
-                                automatically presents tweet layouts tailored to various data types
-                                such as images, replies, and quoted tweets.
+                                The website clone of Twitter, built using the TailwindCSS framework, automatically presents tweet layouts tailored to
+                                various data types such as images, replies, and quoted tweets.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img
-                                        src={javascriptLogo}
-                                        title="JavaScript"
-                                        alt="JavaScript"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={reactLogo}
-                                        title="ReactJS"
-                                        alt="ReactJS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={tailwindLogo}
-                                        title="TailwindCSS"
-                                        alt="TailwindCSS"
-                                        width="45"
-                                        height="45"
-                                    />
+                                    <img src={javascriptLogo} title="JavaScript" alt="JavaScript" width="45" height="45" />
+                                    <img src={reactLogo} title="React.js" alt="React.js" width="45" height="45" />
+                                    <img src={tailwindLogo} title="TailwindCSS" alt="TailwindCSS" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
-                                    <a
-                                        href="https://github.com/kemalgalip/twitter-clone"
-                                        target="_blank"
-                                    >
+                                    <a href="https://github.com/kemalgalip/twitter-clone" target="_blank">
                                         Source
                                     </a>
-                                    <a
-                                        href="https://kemalgalip-twitterclone.vercel.app"
-                                        target="_blank"
-                                    >
+                                    <a href="https://kemalgalip-twitterclone.vercel.app" target="_blank">
                                         Live
                                     </a>
                                 </div>
@@ -357,33 +256,14 @@ export default function Projects() {
                         <div>
                             <h3>ChatON - Chat App Introduction</h3>
                             <p>
-                                CSS focused, animation rich project. Visual satisfaction was the
-                                first priority. I used 2 ready libraries to dive in to npm libraries
-                                and build something more quickly ("Features" and "FAQs" sections).
+                                CSS focused, animation rich project. Visual satisfaction was the first priority. I used 2 ready libraries to dive in
+                                to npm libraries and build something more quickly ("Features" and "FAQs" sections).
                             </p>
                             <div>
                                 <div className="project-card-img-div">
-                                    <img
-                                        src={cssLogo}
-                                        title="CSS"
-                                        alt="CSS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={reactLogo}
-                                        title="ReactJS"
-                                        alt="ReactJS"
-                                        width="45"
-                                        height="45"
-                                    />
-                                    <img
-                                        src={npmLogo}
-                                        title="npm"
-                                        alt="npm"
-                                        width="45"
-                                        height="45"
-                                    />
+                                    <img src={cssLogo} title="CSS" alt="CSS" width="45" height="45" />
+                                    <img src={reactLogo} title="React.js" alt="React.js" width="45" height="45" />
+                                    <img src={npmLogo} title="npm" alt="npm" width="45" height="45" />
                                 </div>
                                 <div className="project-card-link-div">
                                     <a href="https://github.com/kemalgalip/chat-on" target="_blank">
