@@ -33,22 +33,64 @@ export default function Skills() {
                 <div className="skills-logos-parent">
                     <div className="skills-logos-div">
                         <figure style={{ "--order": 1 }}>
-                            <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="60" height="60" style={{ "--order": 1 }} />
+                            <img
+                                src={typescriptLogo}
+                                title="TypeScript"
+                                alt="TypeScript"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 1 }}
+                            />
                         </figure>
                         <figure style={{ "--order": 2 }}>
-                            <img src={reactLogo} title="React.js" alt="React.js" width="60" height="60" style={{ "--order": 2 }} />
+                            <img
+                                src={reactLogo}
+                                title="React.js"
+                                alt="React.js"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 2 }}
+                            />
                         </figure>
                         <figure style={{ "--order": 3 }}>
-                            <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ "--order": 3 }} />
+                            <img
+                                src={nextLogo}
+                                title="Next.js"
+                                alt="Next.js"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 3 }}
+                            />
                         </figure>
                         <figure style={{ "--order": 4 }}>
-                            <img src={nodeLogo} title="Node.js" alt="Node.js" width="60" height="60" style={{ "--order": 4 }} />
+                            <img
+                                src={nodeLogo}
+                                title="Node.js"
+                                alt="Node.js"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 4 }}
+                            />
                         </figure>
                         <figure style={{ "--order": 5 }}>
-                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 5 }} />
+                            <img
+                                src={expressLogo}
+                                title="Express.js"
+                                alt="Express.js"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 5 }}
+                            />
                         </figure>
                         <figure style={{ "--order": 6 }}>
-                            <img src={mongodbLogo} title="MongoDB" alt="MongoDB" width="60" height="60" style={{ "--order": 6 }} />
+                            <img
+                                src={mongodbLogo}
+                                title="MongoDB"
+                                alt="MongoDB"
+                                width="60"
+                                height="60"
+                                style={{ "--order": 6 }}
+                            />
                         </figure>
                     </div>
                 </div>
@@ -106,11 +148,15 @@ export default function Skills() {
                         <li>
                             <span>Git and Github</span>
                         </li>
+                        <li>
+                            <span>AWS (Amazon Web Services)</span>
+                        </li>
                     </ul>
                 </div>
                 <p>
-                    In addition to my skills, I possess a strong aptitude for learning new tools. I am a quick learner, capable of adapting to project
-                    requirements and acquiring proficiency in additional technologies as needed.
+                    In addition to my skills, I possess a strong aptitude for learning new tools. I
+                    am a quick learner, capable of adapting to project requirements and acquiring
+                    proficiency in additional technologies as needed.
                 </p>
             </article>
         </section>
