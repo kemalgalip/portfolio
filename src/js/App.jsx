@@ -1,11 +1,28 @@
-import React from 'react'
-import Hero from "./Hero"
-import About from "./About"
-import Skills from "./Skills"
-import Projects from "./Projects"
-import Footer from "./Footer"
+import React from "react";
+
+import Lenis from "@studio-freight/lenis";
+
+import Hero from "./Hero";
+import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Footer from "./Footer";
 
 export default function App() {
+    React.useEffect(() => {
+        const lenis = new Lenis({
+            wheelMultiplier: 2.5,
+            duration: "1.5",
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    }, []);
+
     return (
         <>
             <main>
@@ -18,5 +35,5 @@ export default function App() {
             </main>
             <Footer />
         </>
-    )
+    );
 }
