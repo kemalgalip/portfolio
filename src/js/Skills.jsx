@@ -1,10 +1,10 @@
 import React from "react";
 import typescriptLogo from "../img/svg/typescript-logo.svg";
-import reactLogo from "../img/svg/react-logo.svg";
 import nextLogo from "../img/svg/next-logo.svg";
 import expressLogo from "../img/svg/express-logo.svg";
 import supabaseLogo from "../img/svg/supabase-logo.svg";
 import postgresqlLogo from "../img/svg/postgresql-logo.svg";
+import dockerLogo from "../img/svg/docker-logo.svg";
 
 export default function Skills() {
     const skillsRef = React.useRef(null);
@@ -36,19 +36,19 @@ export default function Skills() {
                             <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="60" height="60" style={{ "--order": 1 }} />
                         </figure>
                         <figure style={{ "--order": 2 }}>
-                            <img src={reactLogo} title="React.js" alt="React.js" width="60" height="60" style={{ "--order": 2 }} />
+                            <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ "--order": 2 }} />
                         </figure>
                         <figure style={{ "--order": 3 }}>
-                            <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ "--order": 3 }} />
+                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 3 }} />
                         </figure>
                         <figure style={{ "--order": 4 }}>
-                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 4 }} />
+                            <img src={supabaseLogo} title="Supabase" alt="Supabase" width="60" height="60" style={{ "--order": 4 }} />
                         </figure>
                         <figure style={{ "--order": 5 }}>
-                            <img src={supabaseLogo} title="Supabase" alt="Supabase" width="60" height="60" style={{ "--order": 5 }} />
+                            <img src={postgresqlLogo} title="PostgreSQL" alt="PostgreSQL" width="60" height="60" style={{ "--order": 5 }} />
                         </figure>
                         <figure style={{ "--order": 6 }}>
-                            <img src={postgresqlLogo} title="PostgreSQL" alt="PostgreSQL" width="60" height="60" style={{ "--order": 6 }} />
+                            <img src={dockerLogo} title="Docker" alt="Docker" width="60" height="60" style={{ "--order": 6 }} />
                         </figure>
                     </div>
                 </div>
@@ -113,7 +113,13 @@ export default function Skills() {
                             <span>Jest</span>
                         </li>
                         <li>
-                            <span>Git and Github</span>
+                            <span>Docker</span>
+                        </li>
+                        <li>
+                            <span>Git</span>
+                        </li>
+                        <li>
+                            <span>GitHub</span>
                         </li>
                         <li>
                             <span>Cloudflare</span>
