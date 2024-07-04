@@ -130,8 +130,8 @@ export default function Projects() {
             <article ref={projectsRef} className="projects-article">
                 <h2>What I Did</h2>
                 <p>
-                    Here are some of my latest projects. In these projects, different parts of the web development principles and technologies are
-                    used. Details are explained in descriptions.
+                    Here are some of my projects. In these projects, different parts of the web development principles and technologies are used. Details are explained in
+                    descriptions.
                 </p>
                 <div>
                     <div ref={projectOneRef} className="project-card">
@@ -145,7 +145,7 @@ export default function Projects() {
                                 <a href="https://www.narutodb.xyz" target="_blank">
                                     API.
                                 </a>{" "}
-                                Dynamic routing and pagination used (Next.js version 13+).
+                                Dynamic routing and pagination are used (Next.js version 13+).
                             </p>
                             <div>
                                 <div className="project-card-img-div">
@@ -171,8 +171,8 @@ export default function Projects() {
                         <div>
                             <h3>Hair Couture - Hair Salon Website</h3>
                             <p>
-                                General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also built with
-                                React Router DOM, providing multi-page-like experience.
+                                General purpose hair salon website. Appointment and contact form submits are handled with RegEx. It is also built with React Router DOM,
+                                providing multi-page-like experience.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
@@ -202,8 +202,7 @@ export default function Projects() {
                                 <a href="https://rapidapi.com/weatherapi/api/weatherapi-com" target="_blank">
                                     API.
                                 </a>{" "}
-                                Contains some advanced methods such as fetching multiple datas from API at the same time, getting and setting data
-                                from/to local storage.
+                                Contains some methods such as fetching multiple datas from API at the same time, getting and setting data from/to local storage.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
@@ -229,8 +228,8 @@ export default function Projects() {
                         <div>
                             <h3>Twitter - Clone Website</h3>
                             <p>
-                                The website clone of Twitter, built using the TailwindCSS framework, automatically presents tweet layouts tailored to
-                                various data types such as images, replies, and quoted tweets.
+                                The website clone of Twitter, built using the TailwindCSS framework, automatically presents tweet layouts tailored to various data types such
+                                as images, replies, and quoted tweets.
                             </p>
                             <div>
                                 <div className="project-card-img-div">
@@ -256,8 +255,8 @@ export default function Projects() {
                         <div>
                             <h3>ChatON - Chat App Introduction</h3>
                             <p>
-                                CSS focused, animation rich project. Visual satisfaction was the first priority. I used 2 ready libraries to dive in
-                                to npm libraries and build something more quickly ("Features" and "FAQs" sections).
+                                CSS focused project. Chat app layout in the hero section is built with CSS only. I used 2 ready libraries to dive in to npm libraries in front
+                                end ("Features" and "FAQs" sections).
                             </p>
                             <div>
                                 <div className="project-card-img-div">
