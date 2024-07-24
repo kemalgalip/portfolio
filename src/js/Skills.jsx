@@ -92,6 +92,9 @@ export default function Skills() {
                             <span>Express.js</span>
                         </li>
                         <li>
+                            <span>Hono</span>
+                        </li>
+                        <li>
                             <span>Supabase</span>
                         </li>
                         <li>
