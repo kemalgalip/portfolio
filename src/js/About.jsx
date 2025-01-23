@@ -1,6 +1,6 @@
-import React from "react";
-import aboutMe from "../img/svg/about-me.svg";
-import aboutWave from "../img/svg/about-wave.svg";
+import React from 'react';
+import aboutMe from '../img/svg/about-me.svg';
+import aboutWave from '../img/svg/about-wave.svg';
 
 export default function About() {
     const aboutRef = React.useRef(null);
@@ -10,10 +10,10 @@ export default function About() {
             const observer = new IntersectionObserver(
                 ([entry]) => {
                     if (entry.isIntersecting) {
-                        aboutRef.current.setAttribute("data-intersect", "");
+                        aboutRef.current.setAttribute('data-intersect', '');
                     }
                 },
-                { rootMargin: "0px 0px -100px 0px" }
+                { rootMargin: '0px 0px -100px 0px' }
             );
 
             observer.observe(aboutRef.current);
@@ -31,15 +31,10 @@ export default function About() {
                         Who <span>I Am</span>
                     </h3>
                     <p>
-                        Hello! I am <span>Kemal Galip</span>, an aspiring web developer. I can
-                        describe myself as a fast learner, adaptable to challenges, and a very
-                        organized code writer. <span>Easy-to-read</span> code is my top priority. I
-                        love learning from <span>professionals</span> in the field, and projects
-                        that are <span>beyond me.</span> I always look for challenging problems,
-                        which has helped me <span>learn quickly</span> and develop{" "}
-                        <span>strong skills.</span> I have a <span>team-oriented</span> mindset,
-                        valuing open communication, and actively collaborating with my peers to{" "}
-                        <span>achieve collective success.</span>
+                        Hello! I am <span>Kemal Galip</span>, an aspiring full stack developer. I can describe myself as a fast learner, adaptable to changes, and a very
+                        organized code writer. I love learning from <span>experienced professionals</span> in the field, and projects that are <span>beyond me.</span> I always
+                        seek solving challenging problems, which has helped me <span>learn efficiently</span> and develop <span>strong skills.</span> I have a{' '}
+                        <span>team-oriented</span> mindset, valuing open communication, and actively collaborating with my peers to achieve <span>collective success.</span>
                     </p>
                 </article>
             </section>

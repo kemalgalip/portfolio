@@ -1,10 +1,10 @@
-import React from "react";
-import typescriptLogo from "../img/svg/typescript-logo.svg";
-import nextLogo from "../img/svg/next-logo.svg";
-import expressLogo from "../img/svg/express-logo.svg";
-import supabaseLogo from "../img/svg/supabase-logo.svg";
-import postgresqlLogo from "../img/svg/postgresql-logo.svg";
-import dockerLogo from "../img/svg/docker-logo.svg";
+import React from 'react';
+import typescriptLogo from '../img/svg/typescript-logo.svg';
+import nextLogo from '../img/svg/next-logo.svg';
+import expressLogo from '../img/svg/express-logo.svg';
+import supabaseLogo from '../img/svg/supabase-logo.svg';
+import postgresqlLogo from '../img/svg/postgresql-logo.svg';
+import dockerLogo from '../img/svg/docker-logo.svg';
 
 export default function Skills() {
     const skillsRef = React.useRef(null);
@@ -14,10 +14,10 @@ export default function Skills() {
             const observer = new IntersectionObserver(
                 ([entry]) => {
                     if (entry.isIntersecting) {
-                        skillsRef.current.setAttribute("data-intersect", "");
+                        skillsRef.current.setAttribute('data-intersect', '');
                     }
                 },
-                { rootMargin: "0px 0px -250px 0px" }
+                { rootMargin: '0px 0px -250px 0px' }
             );
 
             observer.observe(skillsRef.current);
@@ -32,23 +32,23 @@ export default function Skills() {
                 <h2>What I Do</h2>
                 <div className="skills-logos-parent">
                     <div className="skills-logos-div">
-                        <figure style={{ "--order": 1 }}>
-                            <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="60" height="60" style={{ "--order": 1 }} />
+                        <figure style={{ '--order': 1 }}>
+                            <img src={typescriptLogo} title="TypeScript" alt="TypeScript" width="60" height="60" style={{ '--order': 1 }} />
                         </figure>
-                        <figure style={{ "--order": 2 }}>
-                            <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ "--order": 2 }} />
+                        <figure style={{ '--order': 2 }}>
+                            <img src={nextLogo} title="Next.js" alt="Next.js" width="60" height="60" style={{ '--order': 2 }} />
                         </figure>
-                        <figure style={{ "--order": 3 }}>
-                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ "--order": 3 }} />
+                        <figure style={{ '--order': 3 }}>
+                            <img src={expressLogo} title="Express.js" alt="Express.js" width="60" height="60" style={{ '--order': 3 }} />
                         </figure>
-                        <figure style={{ "--order": 4 }}>
-                            <img src={supabaseLogo} title="Supabase" alt="Supabase" width="60" height="60" style={{ "--order": 4 }} />
+                        <figure style={{ '--order': 4 }}>
+                            <img src={supabaseLogo} title="Supabase" alt="Supabase" width="60" height="60" style={{ '--order': 4 }} />
                         </figure>
-                        <figure style={{ "--order": 5 }}>
-                            <img src={postgresqlLogo} title="PostgreSQL" alt="PostgreSQL" width="60" height="60" style={{ "--order": 5 }} />
+                        <figure style={{ '--order': 5 }}>
+                            <img src={postgresqlLogo} title="PostgreSQL" alt="PostgreSQL" width="60" height="60" style={{ '--order': 5 }} />
                         </figure>
-                        <figure style={{ "--order": 6 }}>
-                            <img src={dockerLogo} title="Docker" alt="Docker" width="60" height="60" style={{ "--order": 6 }} />
+                        <figure style={{ '--order': 6 }}>
+                            <img src={dockerLogo} title="Docker" alt="Docker" width="60" height="60" style={{ '--order': 6 }} />
                         </figure>
                     </div>
                 </div>
@@ -80,10 +80,10 @@ export default function Skills() {
                             <span>TailwindCSS</span>
                         </li>
                         <li>
-                            <span>React Native</span>
+                            <span>Framer Motion</span>
                         </li>
                         <li>
-                            <span>Python</span>
+                            <span>React Native</span>
                         </li>
                         <li>
                             <span>Node.js</span>
